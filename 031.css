@@ -1,0 +1,34 @@
+.info-list div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  color: #4f4f4f;
+}
+
+.info-list div dt {
+  font-weight: 700;
+  margin-right: 7px;
+}
+
+.one {
+  color: rebeccapurple;
+}
+
+.one .two {
+  color: blue;
+}
+
+.three {
+  color: green;
+}
+
+.three:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.three-yellow {
+  background-color: #ff6347;
+}
+/*# sourceMappingURL=031.css.map */

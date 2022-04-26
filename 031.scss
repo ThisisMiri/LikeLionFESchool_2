@@ -1,0 +1,29 @@
+.info-list {
+    div {
+      display: flex;
+      font-size: 14px;
+      color: #4f4f4f;
+      dt {
+        font-weight: 700;
+        margin-right: 7px;
+      }
+    }
+  }
+
+
+.one {
+    color: rebeccapurple;
+    .two {
+        color: blue;
+        @at-root .three {
+            color: green;
+            &:hover {
+                background-color: white;
+                cursor: pointer;
+            }
+            &-yellow {
+                background-color: #ff6347;
+            }
+        }
+    }
+}
